@@ -1,0 +1,115 @@
+.hero {
+  /* background-image: url("../../../../public/images/banner.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  background-size: cover;
+  height: auto;
+  width:100%;
+  
+}
+
+/* .select-input
+{
+  width: max-content;
+} */
+.search_container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 0;
+}
+
+.hero .container {
+  padding-top: 5%;
+}
+
+
+.bold{
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  padding-left: 15px;
+}
+
+/* .hero h1 {
+  color: #fff;
+  font-size: 60px;
+}
+.hero p {
+  color: #fff;
+  opacity: 0.8;
+} */
+form {
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+form input, select {
+  padding: 10px;
+  width: auto;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-right: 1px solid rgba(128, 128, 128, 0.2);
+  font-weight: 600;
+
+}:focus{
+  border: 1px solid rgba(128, 128, 128, 0.2)
+}
+
+.input, select{
+  border:none
+}
+
+select:focus{
+  border: 1px solid rgba(128, 128, 128, 0.2)
+}
+
+.search_bar>input{
+  border: 1px solid rgba(128, 128, 128, 0.2);
+ }
+ 
+form span {
+  font-size: 14px;
+  color: grey;  
+  display: inline-block;
+  padding-left: 10px;
+}
+
+
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+form .item{
+  padding: 15px;
+  width: 20%;
+}
+
+.item:last-child{
+  width: 10%;
+}
+
+
+form .box:nth-child(1) {
+  border-left: none;
+}
+
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,71 @@
+.category
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recent .text {
+  padding: 30px;
+}
+.recent .category span {
+  padding: 4px 15px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-block;
+}
+.recent .category i {
+  font-size: 20px;
+  color: #bec7d8;
+}
+.recent p {
+  color: #72809d;
+}
+.recent .button {
+  border-top: 1px solid #e4e8f3;
+  padding: 10px 30px;
+}
+
+.price{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.price>span{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.price > .num{
+  color:#4c84d7;
+  font-size: 20px !important;
+  font-weight: 500;
+}
+
+.price-text
+{
+  color: grey;
+}
+.item-box
+{
+display: flex;  
+align-items: center;
+}
+
+.icon{
+  color: #4c84d7;
+  margin-right: 6px;
+}
+.icon-name{
+  color: grey;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.fa{
+  padding: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+}
