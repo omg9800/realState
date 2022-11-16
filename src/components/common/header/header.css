@@ -53,8 +53,8 @@ header .toggle {
   position: absolute;
   color: white;
   text-align: center;
-  top:-7px;
-  left:15px;
+  top:-9px;
+  left:20px;
   font-size: 10px;
   height: 15px;
 }
@@ -78,6 +78,7 @@ header .toggle {
   }
   header .small {
     position: absolute;
+    margin-top: 50px;
     top: 10vh;
     left: 0;
     width: 100%;
@@ -89,6 +90,16 @@ header .toggle {
     margin-bottom: 20px;
     color: #fff;
   }
+  .fav-nums
+  {
+    background:white;
+    color: #4c84d7;
+    top:-5px;
+  }
 }
 
 
+.menu
+{
+  z-index: 5;
+}
